@@ -85,7 +85,7 @@ namespace CSharp70Samples
 
         public ref int Zahlensuche(int gesuchteZahl, int[] zahlen)
         {
-            for (int i = zahlen.Length; i++)
+            for (int i =0; i<  zahlen.Length; i++)
             {
                 if (zahlen[i] == gesuchteZahl)
                 {
@@ -117,8 +117,7 @@ namespace CSharp70Samples
         public double Laenge { get; set; }
     }
 
-    public class ()
-        {
+
 
 
 }

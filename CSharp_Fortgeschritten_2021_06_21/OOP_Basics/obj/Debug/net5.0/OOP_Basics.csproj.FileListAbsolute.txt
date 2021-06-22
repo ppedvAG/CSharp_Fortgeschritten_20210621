@@ -1,0 +1,15 @@
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\obj\Debug\net5.0\OOP_Basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\obj\Debug\net5.0\OOP_Basics.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\obj\Debug\net5.0\OOP_Basics.AssemblyInfo.cs
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\obj\Debug\net5.0\OOP_Basics.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\bin\Debug\net5.0\OOP_Basics.exe
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\bin\Debug\net5.0\OOP_Basics.deps.json
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\bin\Debug\net5.0\OOP_Basics.runtimeconfig.json
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\bin\Debug\net5.0\OOP_Basics.runtimeconfig.dev.json
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\bin\Debug\net5.0\OOP_Basics.dll
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\bin\Debug\net5.0\ref\OOP_Basics.dll
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\bin\Debug\net5.0\OOP_Basics.pdb
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\obj\Debug\net5.0\OOP_Basics.dll
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\obj\Debug\net5.0\ref\OOP_Basics.dll
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\obj\Debug\net5.0\OOP_Basics.pdb
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\OOP_Basics\obj\Debug\net5.0\OOP_Basics.genruntimeconfig.cache

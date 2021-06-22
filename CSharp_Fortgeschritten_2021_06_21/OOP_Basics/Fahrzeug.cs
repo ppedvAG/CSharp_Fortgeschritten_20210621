@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,20 +25,23 @@ namespace OOP_Basics
         public double Tiefgang { get; set; }
     }
 
-    public class VehicleBase
+    public abstract class VehicleBase
     {
         private int baujahr;
         private string marke;
         private double aktuelleGeschwindigkeit;
         private double maxGeschwindigkeit;
-        
+
+
+        public static int AnzahlErstellterFahrzeuge { get; private set; } = 0;
         //ctor + tab + tab -> Konstruktor
         public VehicleBase()
         {
-           
+            AnzahlErstellterFahrzeuge++;
         }
 
-        public VehicleBase(int Baujahr, string Marke, double AktuelleGeschwindigkeit, double MaxGeschwindigkeit, bool MotorIsRunning=false)
+        public VehicleBase(int Baujahr, string Marke, double AktuelleGeschwindigkeit, double MaxGeschwindigkeit)
+            :this()
         {
             this.baujahr = Baujahr;
             this.marke = Marke;
@@ -68,7 +71,7 @@ namespace OOP_Basics
 
         //Diese Methode kann Beschleunigen 
         //Für motorisierte Fortbewegungsmittel werden wir diese Methode überschreiben.
-        public virtual void Beschleunigung (int a)
+        public virtual void Beschleunigung (int a) //base.Beschleunigung
         {
             if (this.AktuelleGeschwindigkeit + a > this.MaxGeschwindigkeit)
             {
@@ -79,11 +82,51 @@ namespace OOP_Basics
             else
                 this.AktuelleGeschwindigkeit += a;
         }
+
+        public abstract void Repair();
+
+        public static double MphTOKmh(double mph)
+        {
+            return mph * 1.60934;
+        }
+
+        public static double KmhTOMph(double kmph)
+        {
+            return 0.6214 * kmph;
+        }
     }
 
     public class ShipBase : VehicleBase, ICanSwim
     {
-        public double Tiefgang { get; set; }
+        private double _tiefgang;
+
+        public ShipBase(int Tiefgang, int Baujahr, string Marke, double AktuelleGeschwindigkeit, double MaxGeschwindigkeit) 
+            : base(Baujahr, Marke, AktuelleGeschwindigkeit, MaxGeschwindigkeit)
+        {
+            this.Tiefgang = Tiefgang;
+        }
+
+        public double Tiefgang 
+        { 
+            get
+            {
+                return _tiefgang;
+            }
+            set
+            {
+                _tiefgang = value;
+            } 
+        }
+        
+
+        
+
+        public override void Repair()
+        {
+            Console.WriteLine("Schiff geht an die Docks");
+        }
+
+
     }
 
 
@@ -91,6 +134,14 @@ namespace OOP_Basics
     {
         public bool MotorIsRunning { get; set; }
         public MotorizedTyp Type { get; set; }
+
+
+        public SchiffWithEngine(int Tiefgang, int Baujahr, string Marke, double AktuelleGeschwindigkeit, double MaxGeschwindigkeit, bool MotorIsRunning = false, MotorizedTyp motorTyp=MotorizedTyp.Dampf)
+            :base(Tiefgang, Baujahr, Marke, AktuelleGeschwindigkeit, MaxGeschwindigkeit)
+        {
+            this.MotorIsRunning = MotorIsRunning;
+            this.Type = motorTyp;
+        }
 
         public void StarteMotor()
         {
@@ -101,21 +152,39 @@ namespace OOP_Basics
         {
             MotorIsRunning = false;
         }
+
+        public override void Beschleunigung(int a)
+        {
+            
+            if (MotorIsRunning)
+                base.Beschleunigung(a);
+        }
     }
 
+    //public class Segelschiff : ShipBase
+    //{
+    //    public int AnzahlMasten { get; set; }
+    //    public bool IsSegelAvailable { get; set; }
 
-
-
-     
+    //    public override void Beschleunigung(int a)
+    //    {
+    //        if (AnzahlMasten > 0 && IsSegelAvailable)
+    //            base.Beschleunigung(a);
+    //    }
+    //}
 
     public class Flugzeug : VehicleBase
     {
         private double spannweite;
         private double maxFlughoehe;
 
-
         public double Spannweite { get => spannweite; set => spannweite = value; }
         public double MaxFlughoehe { get => maxFlughoehe; set => maxFlughoehe = value; }
+
+        public override void Repair()
+        {
+            Console.WriteLine("Flugzeug steht nun im Hangar");
+        }
     }
 
 

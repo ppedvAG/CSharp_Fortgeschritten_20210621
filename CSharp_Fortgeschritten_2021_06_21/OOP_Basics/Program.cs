@@ -6,8 +6,12 @@ namespace OOP_Basics
     {
         static void Main(string[] args)
         {
-            MyProgramm myProgramm = new MyProgramm();
-            myProgramm.Main();
+            SchiffWithEngine schiffWithEngine = new SchiffWithEngine(2, 1998, "Blub Blub", 12, 18, false, MotorizedTyp.Diesel);
+            
+
+
+            //MyProgramm myProgramm = new MyProgramm();
+            //myProgramm.Main();
 
 
             Console.ReadKey();

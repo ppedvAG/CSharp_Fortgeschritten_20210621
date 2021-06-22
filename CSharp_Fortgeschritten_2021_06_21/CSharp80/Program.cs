@@ -25,7 +25,7 @@ namespace CSharp80
             var text = myArray[startindex..];
             var text1 = myArray[..endindex];
 
-            GebeZahlenAus();
+            //GebeZahlenAus();
             Console.ReadLine();
 
             //Verbatim String

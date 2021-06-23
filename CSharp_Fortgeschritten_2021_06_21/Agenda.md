@@ -1,12 +1,12 @@
 ### C#-Fortgeschritten - Agend:
 
-- [ ] C# Sprachfeatures
-- [ ] OOP Rundumblick
-- [ ] SOLID
-- [ ] Übungen zu Solid (u.a Interfaces)
+- [x] C# Sprachfeatures
+- [x] OOP Rundumblick
+- [x] SOLID
+- [o] Übungen zu Solid (u.a Interfaces)
 - [ ] Threading / TPL / async - await /Benchmark-Test
 - [ ] Delegates / Func / Action / Events / EventHandler
-- [ ] Generics
+- [x] Generics
 - [ ] Serializierung
 - [ ] Erweiterungs-Methoden
 - [ ] Plugin Pattern (u.a Interfaces)

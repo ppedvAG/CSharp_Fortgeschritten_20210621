@@ -173,4 +173,153 @@ namespace OpenClosed_Principle_OCP
     }
 
     #endregion
+
+
+
+    #region Sicherheitsmann auf Rummelsplatz
+
+
+    //DB Strukturen - Stammdaten 
+
+
+    //POCO ENTITIES -> EF Core - FirstCode Klassen
+
+    #region Entities 
+    public class Jahrmarkt
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+        IList<JahrmarkParzellen> Parzellen { get; set; }
+    }
+
+    //Tabellen Parzellen
+    public class JahrmarkParzellen
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+        public Jahrmarkt Jarhmarkt { get; set; }
+        public int JahrmarktId { get; set; }
+    }
+
+    public class SecurityMan
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+    }
+
+    public class Report
+    {
+        public int Id { get; set; }
+        public DateTime ReportTime { get; set; }
+
+        public string Memo { get; set; }
+    }
+
+
+    
+
+    #endregion
+
+
+    #region Datenzugriffs-Klasen
+
+    public abstract class RepositoryBase<T> 
+    {
+        //abstracte Methoden Insert/GetAll/Delete/Update 
+
+        //CRUD -> Create/Read/Update/Delete
+
+        public abstract void Insert(T obj);
+
+        //Mit Generic wird die Base-Klasse noch schicker
+    }
+
+    public class JahrmarktRepository : RepositoryBase<Jahrmarkt>
+    {
+        //Datenbank Verbindung-> private SqlConnection (Variante1)
+        //Datenbank Verbindung-> private DbContext (Variante1)
+        public override void Insert(Jahrmarkt obj)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IList<Jahrmarkt> GetAll()
+        {
+            return new List<Jahrmarkt>();
+        }
+
+
+        public Jahrmarkt GetById(int Id)
+        {
+            return new Jahrmarkt();
+        }
+    }
+
+
+    public class ParzellenRepository : RepositoryBase<JahrmarkParzellen>
+    {
+        //Selbe Methoden wie in Jahrmark Repository
+        public override void Insert(JahrmarkParzellen obj)
+        {
+          
+        }
+    }
+
+    public class SecurityManRepository : RepositoryBase<SecurityMan>
+    {
+        //Selebe Methoden wie in Jahrmarkt Repository
+        public override void Insert(SecurityMan obj)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+
+    public class ReportRepository : RepositoryBase<Report>
+    {
+       
+        public IList<Report> GetAll()
+        {
+            return new List<Report>();
+        }
+
+        public override void Insert(Report obj)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    #endregion
+
+    
+    
+    
+    
+    
+    //Workflow -> Sicherheitsmann muss einen Bericht schreiben und speicher
+    public class SecurityReport
+    {
+        public void Report(int JahrmarkId, int SecurityManId, Report newReport)
+        {
+            ReportRepository repository = new ReportRepository();
+            repository.Insert(newReport);
+        }
+    }
+
+
+    public class ZeiterfassungSystem
+    {
+        public void MitarbeiterBeginnArbeit(SecurityMan security)
+        {
+
+        }
+    }
+
+
+
+
+    #endregion
 }

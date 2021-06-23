@@ -36,6 +36,17 @@ namespace SingleResponsibility_Princip
         public void GenerateReport(EmployeeBad em)
         {
             // Report generation with employee data using crystal report.
+
+
+            #region CS
+            // Konfigurationen
+            //  -> Wo liegen Templates eine Reports
+            //  -> Ausgabeverzeichnis der Reports mit eventuell Zeit-Intervallen (Ausgabe Steuern) 
+
+            //Core
+            // Verarbeitung von einem DataTable / IList / List / Dictionary von Daten -> Report erstellt 
+            #endregion
+
         }
 
         // GenerateReport wird in einer eigene Klasse ausgelagert, weil GenerateReport eine eigene Funktionalität mit sich bringt.

@@ -4,9 +4,15 @@
 - [x] OOP Rundumblick
 - [x] SOLID
 - [o] Übungen zu Solid (u.a Interfaces)
+- [x] Generics
+- [x] Benchmark StringBuilder vs +-Operator (bei strings)
+
+Do: 
 - [ ] Threading / TPL / async - await /Benchmark-Test
 - [ ] Delegates / Func / Action / Events / EventHandler
-- [x] Generics
+
+
+Fr:
 - [ ] Serializierung
 - [ ] Erweiterungs-Methoden
 - [ ] Plugin Pattern (u.a Interfaces)
@@ -14,9 +20,9 @@
 - [ ] Linq / Lambda
 - [ ] Anonyme Typen + dynamische Typen
 - [ ] Operatoren
-- [ ] Benchmark StringBuilder vs +-Operator (bei strings)
 
 
+Do:
 Optionaler Rundgang:
 - [ ] EF Core (früher Entity Framework) (abfragen auf Datenbank)
 - [ ] WebAPI

@@ -31,19 +31,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility_Princi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosed_Principle_OCP", "OpenClosed_Principle_OCP\OpenClosed_Principle_OCP.csproj", "{EFCC95F6-7D37-40D6-AF16-5CC370D6EE35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency_Inversion", "Dependency_Inversion\Dependency_Inversion.csproj", "{7BE33220-886E-486A-A8ED-7D59E143C1AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dependency_Inversion", "Dependency_Inversion\Dependency_Inversion.csproj", "{7BE33220-886E-486A-A8ED-7D59E143C1AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface_segregation_principle_ISP", "Interface_segregation_principle_ISP\Interface_segregation_principle_ISP.csproj", "{F5C7B6F4-6D5A-4A9F-8ECC-A5937099CB61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface_segregation_principle_ISP", "Interface_segregation_principle_ISP\Interface_segregation_principle_ISP.csproj", "{F5C7B6F4-6D5A-4A9F-8ECC-A5937099CB61}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generics", "Generics", "{A94A97DD-7BB2-407F-A1CF-C3CFDF428AFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsSamples", "GenericsSamples\GenericsSamples.csproj", "{EFD69C63-9A20-4EF9-B3D3-7F3D261E92A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsSamples", "GenericsSamples\GenericsSamples.csproj", "{EFD69C63-9A20-4EF9-B3D3-7F3D261E92A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsWithConstraintsSampleAndLab", "GenericsWithConstraintsSampleAndLab\GenericsWithConstraintsSampleAndLab.csproj", "{CAF0676B-B2CC-45C8-8647-44D7FDFE9700}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsWithConstraintsSampleAndLab", "GenericsWithConstraintsSampleAndLab\GenericsWithConstraintsSampleAndLab.csproj", "{CAF0676B-B2CC-45C8-8647-44D7FDFE9700}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BenchmarkTest", "BenchmarkTest", "{266D4927-64D2-4B56-BAA7-B1C9E2223BEF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilderBenchmarkDemo", "StringBuilderBenchmarkDemo\StringBuilderBenchmarkDemo.csproj", "{ADE35A76-6425-4901-87A8-26C691F30DCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LABS", "LABS", "{053CE0F9-A8F7-4003-9C79-01AFAAB4C918}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Übung_Solid1", "..\Labs\Übung_Solid1\Übung_Solid1.csproj", "{95EBFAC9-2070-4433-A6CC-2C95D4680671}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Übung_Solid2", "..\Labs\Übung_Solid2\Übung_Solid2.csproj", "{EA0D9994-F6AB-4090-A9BC-B53E84CD7FB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +109,14 @@ Global
 		{ADE35A76-6425-4901-87A8-26C691F30DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE35A76-6425-4901-87A8-26C691F30DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE35A76-6425-4901-87A8-26C691F30DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95EBFAC9-2070-4433-A6CC-2C95D4680671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95EBFAC9-2070-4433-A6CC-2C95D4680671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95EBFAC9-2070-4433-A6CC-2C95D4680671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95EBFAC9-2070-4433-A6CC-2C95D4680671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0D9994-F6AB-4090-A9BC-B53E84CD7FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0D9994-F6AB-4090-A9BC-B53E84CD7FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0D9994-F6AB-4090-A9BC-B53E84CD7FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0D9994-F6AB-4090-A9BC-B53E84CD7FB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +135,8 @@ Global
 		{EFD69C63-9A20-4EF9-B3D3-7F3D261E92A9} = {A94A97DD-7BB2-407F-A1CF-C3CFDF428AFF}
 		{CAF0676B-B2CC-45C8-8647-44D7FDFE9700} = {A94A97DD-7BB2-407F-A1CF-C3CFDF428AFF}
 		{ADE35A76-6425-4901-87A8-26C691F30DCC} = {266D4927-64D2-4B56-BAA7-B1C9E2223BEF}
+		{95EBFAC9-2070-4433-A6CC-2C95D4680671} = {053CE0F9-A8F7-4003-9C79-01AFAAB4C918}
+		{EA0D9994-F6AB-4090-A9BC-B53E84CD7FB2} = {053CE0F9-A8F7-4003-9C79-01AFAAB4C918}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA72AFEA-D69D-4B82-B9AE-05E8123B41EE}

@@ -1,0 +1,16 @@
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\obj\Debug\net5.0\005_LockSample.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\obj\Debug\net5.0\005_LockSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\obj\Debug\net5.0\005_LockSample.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\obj\Debug\net5.0\005_LockSample.AssemblyInfo.cs
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\obj\Debug\net5.0\005_LockSample.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\bin\Debug\net5.0\005_LockSample.exe
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\bin\Debug\net5.0\005_LockSample.deps.json
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\bin\Debug\net5.0\005_LockSample.runtimeconfig.json
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\bin\Debug\net5.0\005_LockSample.runtimeconfig.dev.json
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\bin\Debug\net5.0\005_LockSample.dll
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\bin\Debug\net5.0\ref\005_LockSample.dll
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\bin\Debug\net5.0\005_LockSample.pdb
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\obj\Debug\net5.0\005_LockSample.dll
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\obj\Debug\net5.0\ref\005_LockSample.dll
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\obj\Debug\net5.0\005_LockSample.pdb
+C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\005_LockSample\obj\Debug\net5.0\005_LockSample.genruntimeconfig.cache

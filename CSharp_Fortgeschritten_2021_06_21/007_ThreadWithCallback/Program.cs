@@ -13,7 +13,7 @@ namespace _007_ThreadWithCallback
         static void Main(string[] args)
         {
             ThreadWithState tws = new ThreadWithState(
-                "this report displas the number {0}", 
+                "this report displas the number", 
                 42, 
                 new ExampleCallback(ResultCallback));
 

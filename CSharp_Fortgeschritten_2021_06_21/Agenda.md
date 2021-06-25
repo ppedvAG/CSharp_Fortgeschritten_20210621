@@ -19,13 +19,14 @@ Fr:
 - [x] Serializierung
 - [x] Erweiterungs-Methoden
 
-- [ ] Linq / Lambda
+- [x] Linq / Lambda
 - [ ] Anonyme Typen + dynamische Typen
-- [ ] Operatoren
+
 
 
 Do:
 Optionaler Rundgang:
+- [ ] Operatoren
 - [ ] EF Core (früher Entity Framework) (abfragen auf Datenbank)
 - [ ] WebAPI
 

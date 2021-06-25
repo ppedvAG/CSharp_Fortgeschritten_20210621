@@ -119,6 +119,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinqLambda", "LinqLambda", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqAndLamdaSamples", "LinqAndLamdaSamples\LinqAndLamdaSamples.csproj", "{B0DCCE92-5482-46B1-AA1B-1C800DC50BD8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicObjects", "DynamicObjects", "{6C25382C-2D8B-4BAF-9508-21871C672EA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTypeSample", "DynamicTypeSample\DynamicTypeSample.csproj", "{64F300ED-FA40-43DA-A31E-A0ED9C8EF2B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -293,6 +297,10 @@ Global
 		{B0DCCE92-5482-46B1-AA1B-1C800DC50BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0DCCE92-5482-46B1-AA1B-1C800DC50BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0DCCE92-5482-46B1-AA1B-1C800DC50BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F300ED-FA40-43DA-A31E-A0ED9C8EF2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F300ED-FA40-43DA-A31E-A0ED9C8EF2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F300ED-FA40-43DA-A31E-A0ED9C8EF2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F300ED-FA40-43DA-A31E-A0ED9C8EF2B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -340,6 +348,7 @@ Global
 		{88AC92D7-9DC2-45E8-8077-06CC5223F03C} = {6FDB830C-61FE-4CFE-BEBA-0243A64029CF}
 		{C6CFBB67-A5C0-4823-881A-96C988E87E78} = {D49B0BF1-EC45-4779-98FF-AA9EAF9EFE26}
 		{B0DCCE92-5482-46B1-AA1B-1C800DC50BD8} = {0108FB3A-2A0D-4725-9FC4-69EDA0CAA2AC}
+		{64F300ED-FA40-43DA-A31E-A0ED9C8EF2B5} = {6C25382C-2D8B-4BAF-9508-21871C672EA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA72AFEA-D69D-4B82-B9AE-05E8123B41EE}

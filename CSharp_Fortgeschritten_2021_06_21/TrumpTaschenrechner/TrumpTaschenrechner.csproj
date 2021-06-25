@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Aktueller Kurs\CSharp_Fortgeschritten_20210621\CSharp_Fortgeschritten_2021_06_21\HalloReflection\bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wUJrZDCfUhYKyfptAI38f7NQOvGSIaQqPWKgBltESUFXljFS9ojYqr7BmsZgx6tcsqUrvCgLosszHvFxQx/cmw==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\CSharp_Fortgeschritten_20210621\\AppWithPlugin\\HelloPlugin\\HelloPlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

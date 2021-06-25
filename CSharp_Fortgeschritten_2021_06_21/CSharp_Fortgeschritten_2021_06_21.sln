@@ -105,6 +105,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleagateWithCallback", "De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventAndEventHandler", "EventAndEventHandler\EventAndEventHandler.csproj", "{1958CBBC-C3E2-4F65-9247-CCE7C4F4C3C8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflections", "Reflections", "{6FDB830C-61FE-4CFE-BEBA-0243A64029CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrumpTaschenrechner", "TrumpTaschenrechner\TrumpTaschenrechner.csproj", "{50A1AC30-62DD-4813-A1CD-851BBBD055F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloReflection", "HalloReflection\HalloReflection.csproj", "{88AC92D7-9DC2-45E8-8077-06CC5223F03C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -263,6 +269,14 @@ Global
 		{1958CBBC-C3E2-4F65-9247-CCE7C4F4C3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1958CBBC-C3E2-4F65-9247-CCE7C4F4C3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1958CBBC-C3E2-4F65-9247-CCE7C4F4C3C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A1AC30-62DD-4813-A1CD-851BBBD055F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A1AC30-62DD-4813-A1CD-851BBBD055F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A1AC30-62DD-4813-A1CD-851BBBD055F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A1AC30-62DD-4813-A1CD-851BBBD055F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88AC92D7-9DC2-45E8-8077-06CC5223F03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88AC92D7-9DC2-45E8-8077-06CC5223F03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88AC92D7-9DC2-45E8-8077-06CC5223F03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88AC92D7-9DC2-45E8-8077-06CC5223F03C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -306,6 +320,8 @@ Global
 		{1FCDA4A6-B8F8-4460-BE78-2E97C2A73CCC} = {CF0F1C4F-865C-47C0-9A67-2E10FB3A4B60}
 		{C79ECD8B-0E80-4063-8880-DC4CD971466B} = {CF0F1C4F-865C-47C0-9A67-2E10FB3A4B60}
 		{1958CBBC-C3E2-4F65-9247-CCE7C4F4C3C8} = {CF0F1C4F-865C-47C0-9A67-2E10FB3A4B60}
+		{50A1AC30-62DD-4813-A1CD-851BBBD055F6} = {6FDB830C-61FE-4CFE-BEBA-0243A64029CF}
+		{88AC92D7-9DC2-45E8-8077-06CC5223F03C} = {6FDB830C-61FE-4CFE-BEBA-0243A64029CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA72AFEA-D69D-4B82-B9AE-05E8123B41EE}

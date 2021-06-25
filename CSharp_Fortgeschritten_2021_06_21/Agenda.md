@@ -8,15 +8,16 @@
 - [x] Benchmark StringBuilder vs +-Operator (bei strings)
 
 Do: 
-- [ ] Threading / TPL / async - await /Benchmark-Test
-- [ ] Delegates / Func / Action / Events / EventHandler
+- [x] Threading / TPL / async - await /Benchmark-Test
+- [x] Delegates / Func / Action / Events / EventHandler
 
 
 Fr:
+- [ ] Reflections 
+- [ ] Plugin Pattern (u.a Interfaces)
+
 - [ ] Serializierung
 - [ ] Erweiterungs-Methoden
-- [ ] Plugin Pattern (u.a Interfaces)
-- [ ] Reflections 
 - [ ] Linq / Lambda
 - [ ] Anonyme Typen + dynamische Typen
 - [ ] Operatoren

@@ -13,11 +13,12 @@ Do:
 
 
 Fr:
-- [ ] Reflections 
-- [ ] Plugin Pattern (u.a Interfaces)
+- [x] Reflections 
+- [x] Plugin Pattern (u.a Interfaces)
 
-- [ ] Serializierung
-- [ ] Erweiterungs-Methoden
+- [x] Serializierung
+- [x] Erweiterungs-Methoden
+
 - [ ] Linq / Lambda
 - [ ] Anonyme Typen + dynamische Typen
 - [ ] Operatoren

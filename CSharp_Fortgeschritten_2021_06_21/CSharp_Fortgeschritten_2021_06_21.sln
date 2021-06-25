@@ -115,6 +115,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialisierung", "Serialisi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSerialize", "HelloSerialize\HelloSerialize.csproj", "{C6CFBB67-A5C0-4823-881A-96C988E87E78}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinqLambda", "LinqLambda", "{0108FB3A-2A0D-4725-9FC4-69EDA0CAA2AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqAndLamdaSamples", "LinqAndLamdaSamples\LinqAndLamdaSamples.csproj", "{B0DCCE92-5482-46B1-AA1B-1C800DC50BD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +289,10 @@ Global
 		{C6CFBB67-A5C0-4823-881A-96C988E87E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6CFBB67-A5C0-4823-881A-96C988E87E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6CFBB67-A5C0-4823-881A-96C988E87E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DCCE92-5482-46B1-AA1B-1C800DC50BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DCCE92-5482-46B1-AA1B-1C800DC50BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DCCE92-5482-46B1-AA1B-1C800DC50BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DCCE92-5482-46B1-AA1B-1C800DC50BD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -331,6 +339,7 @@ Global
 		{50A1AC30-62DD-4813-A1CD-851BBBD055F6} = {6FDB830C-61FE-4CFE-BEBA-0243A64029CF}
 		{88AC92D7-9DC2-45E8-8077-06CC5223F03C} = {6FDB830C-61FE-4CFE-BEBA-0243A64029CF}
 		{C6CFBB67-A5C0-4823-881A-96C988E87E78} = {D49B0BF1-EC45-4779-98FF-AA9EAF9EFE26}
+		{B0DCCE92-5482-46B1-AA1B-1C800DC50BD8} = {0108FB3A-2A0D-4725-9FC4-69EDA0CAA2AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA72AFEA-D69D-4B82-B9AE-05E8123B41EE}

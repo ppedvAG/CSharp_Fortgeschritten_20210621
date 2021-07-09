@@ -13,10 +13,10 @@ namespace HelloWebAPI.Controllers
 
 
     /* URL Übersicht
-     * GetAll:   https://localhost:12345/api/Movie
+     * GetAll:   https://localhost:12345/api/Movie/
      * GetMovie: https://localhost:12345/api/Movie/123
      * PutMovie: https://localhost:12345/api/Movie/123
-     * PostMovie:https://localhost:12345/api/Movie
+     * PostMovie:https://localhost:12345/api/Movie/
      * DeleteMovie:https://localhost:12345/api/Movie/123
      * 
      * 

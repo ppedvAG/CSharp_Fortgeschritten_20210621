@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace HelloWebAPI.UI.Controllers
@@ -20,6 +21,11 @@ namespace HelloWebAPI.UI.Controllers
 
         public IActionResult Index()
         {
+            //Böser Quellcode -> Kann zu SocketExceptions führen
+            //using (HttpClient client = new HttpClient())
+            //{
+            //    client.
+            //} //Dispose() -> Objekt wird aufgeräumt
             return View();
         }
 

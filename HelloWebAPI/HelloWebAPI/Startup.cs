@@ -29,9 +29,12 @@ namespace HelloWebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // Hier k�nnen wir neue WebAPI/ASPNETCore Features freischalten. 
 
-            services.AddControllers(); // Wir verwenden WebAPI
+
+            services.AddControllers();
+            // Hier können wir neue WebAPI/ASPNETCore Features freischalten.
+
+            // Wir verwenden WebAPI
             //services.AddControllersWithViews(); //MVC 
             //services.AddRazorPages(); //Razor Page 
             //services.AddMvc(); // MVC + Razor Page 

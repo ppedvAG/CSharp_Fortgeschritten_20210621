@@ -16,7 +16,7 @@ namespace HelloWebAPI.UI.Services
         //Kann man auch in die AppSettings -> auslagern und via IConfiguration einlesen. 
         private string _baseUrl = "https://localhost:44381/api/Movie/";
         
-        public MovieService(HttpClient httpClient)
+        public MovieService(HttpClient httpClient) //Wird via IOC Container Verfügbar gemacht
         {
             _httpClient = httpClient;
         }

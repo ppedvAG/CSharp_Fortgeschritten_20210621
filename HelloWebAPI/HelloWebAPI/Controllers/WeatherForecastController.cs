@@ -36,5 +36,12 @@ namespace HelloWebAPI.Controllers
             })
             .ToArray();
         }
+
+
+        [HttpGet("error")]
+        public IActionResult GetError()
+        {
+            return Problem("Something went wrong!");
+        }
     }
 }
